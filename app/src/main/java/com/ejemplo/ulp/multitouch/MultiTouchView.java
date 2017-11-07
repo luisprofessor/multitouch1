@@ -22,7 +22,7 @@ public class MultiTouchView extends View {
     private SparseArray<PointF> puntosActivos;
     // Pincel para dibujar
     private Paint paint;
-    // Matriz con colores para dibujar c�rculos
+    // Matriz con colores para dibujar circulos
 
 
     private int[] colores = { Color.GREEN, Color.BLUE, Color.RED,
@@ -44,7 +44,7 @@ public class MultiTouchView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-// Dibujamos todos los puntos en c�rculo con un bucle
+// Dibujamos todos los puntos en circulo con un bucle
         int size = puntosActivos.size();
         for (int i = 0; i < size; i++) {
 // Obtenemos el punto i
